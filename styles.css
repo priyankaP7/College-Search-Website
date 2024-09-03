@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('pexels-pixabay-267885.jpg') no-repeat center center fixed; /* Change 'your-background-image.jpg' to the path of your image */
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px; /* Adjust max width to your preference */
+    background: rgba(255, 255, 255, 0.8); /* Optional: semi-transparent background for better readability */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: -50px; /* Move the container up by 50px */
+   
+}
+
+
+
+
+.form-container, .results-container {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    max-width: 400px; /* Adjust max width for the form */
+}
+
+.results-container {
+    max-width: 600px; /* Adjust max width for the results */
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label {
+    margin-bottom: 8px;
+}
+
+.form-container input {
+    margin-bottom: 12px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-container button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.results-container h2 {
+    margin-top: 0;
+    text-align: center; /* Center align the text in h2 */
+}
+
+.form-container button:hover {
+    background-color: #0056b3;
+}
+
+.results-container h2 {
+    margin-top: 0;
+    
+}
+
+#resultsList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#resultsList li {
+    background: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
